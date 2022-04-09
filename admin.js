@@ -60,6 +60,7 @@ plus2.addEventListener("click", function () {
     name.value = " ";
     imd.value = " ";
     tbody.insertAdjacentHTML("beforeend", htmlString);
+    return plus2;
   }
 
   // let edit = document.querySelector(".edit");
