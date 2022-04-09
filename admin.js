@@ -7,9 +7,8 @@ ourRequest.open("GET", "movies.json", true);
 ourRequest.onload = function () {
   var ourData = JSON.parse(ourRequest.responseText);
   renderHtml(ourData);
-  let local = JSON.parse(localStorage.getItem("ad"));
-  localStorage.setItem("add", JSON.stringify(ourData));
-  console.log(local);
+  let local = JSON.parse(localStorage.getItem("adlarr"));
+  localStorage.setItem("adlar", JSON.stringify(ourData));
 };
 ourRequest.send();
 function renderHtml(data) {
