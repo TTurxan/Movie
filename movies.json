@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Desperate Riders",
+        "imd": "6.1",
+        "image":"https://image.tmdb.org/t/p/w1280/7pYYGm1dWZGkbJuhcuaHD6nE6k7.jpg"
+    },
+    {
+        "name": "Kimi",
+        "imd": "6.2",
+        "image":"https://image.tmdb.org/t/p/w1280/okNgwtxIWzGsNlR3GsOS0i0Qgbn.jpg"
+    },
+    {
+        "name": "Jackass forever",
+        "imd": "7",
+        "image":"https://image.tmdb.org/t/p/w1280/ugIdyvtAzHWOguD91UjHKoAvfum.jpg"
+    },
+    {
+        "name": "Eternals",
+        "imd": "7.2",
+        "image":"https://image.tmdb.org/t/p/w1280/bcCBq9N1EMo3daNIjWJ8kYvrQm6.jpg"
+    },
+    {
+        "name": "The King's Man",
+        "imd": "7",
+        "image":"https://image.tmdb.org/t/p/w1280/aq4Pwv5Xeuvj6HZKtxyd23e6bE9.jpg"
+    },
+    {
+        "name": "Sing 2",
+        "imd": "8.1",
+        "image":"https://image.tmdb.org/t/p/w1280/aWeKITRFbbwY8txG5uCj4rMCfSP.jpg"
+    },
+    {
+        "name": "The Requin",
+        "imd": "4.8",
+        "image":"https://image.tmdb.org/t/p/w1280/i0z8g2VRZP3dhVvvSMilbOZMKqR.jpg"
+    },
+    {
+        "name": "Last Man Down",
+        "imd": "6.2",
+        "image":"https://image.tmdb.org/t/p/w1280/4B7liCxNCZIZGONmAMkCnxVlZQV.jpg"
+    },
+    {
+        "name": "The Commando",
+        "imd": "6.6",
+        "image":"https://image.tmdb.org/t/p/w1280/mC66fsuzlYHSoZwb6y6emSCaRv5.jpg"
+    }
+]

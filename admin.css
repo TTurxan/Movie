@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1400px !important;
+}
+
+#header {
+  margin-bottom: 20px;
+}
+
+#header .imgbox {
+  text-align: center;
+}
+
+#header .imgbox img {
+  width: 60%;
+}
+
+#header .navbar ul {
+  display: inline-block;
+}
+
+#header .navbar ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+#header .navbar ul li i {
+  color: white;
+}
+
+#header .navbar ul li i a {
+  color: white;
+}
+
+#header .navbar .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+#header .navbar .search input {
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px;
+  border: none;
+}
+
+#header .navbar .search i {
+  border: 0;
+  color: inherit;
+  border-radius: 0px;
+  padding-left: 5px;
+  padding-right: 20px;
+}
+
+#header .navbar .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: inherit;
+  font-size: 0.875rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  height: 70px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header .navbar .profile .imgbox img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+#header .navbar .profile .name p {
+  margin: 0;
+}
+
+#header .navbar .icons i {
+  font-size: 15px;
+  color: inherit;
+  margin-right: 10px;
+}
+
+#change .box ul {
+  padding: 0;
+}
+
+#change .box ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+#change .box ul li i {
+  color: #af67ff;
+}
+
+#change .content {
+  background-color: #f2edf3;
+  padding: 20px;
+}
+
+#change .content .project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#change .content .project .description input {
+  margin-right: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+#change .content .project .fa-plus {
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+#change #tbody #list .fa-edit {
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+#change #tbody #list .fa-trash {
+  cursor: pointer;
+}
+
+#change #tbody .photo img {
+  width: 50px;
+  height: 50px;
+}
+
+.fa-edit {
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.fa-trash {
+  cursor: pointer;
+}
+/*# sourceMappingURL=admin.css.map */
