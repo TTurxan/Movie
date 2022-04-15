@@ -49,18 +49,16 @@ body #header .navbar .language {
   float: right;
 }
 
-body #header .navbar .language ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0;
+body #header .navbar .basket {
+  font-size: 20px;
+  color: white;
 }
 
-body #movies .imgbox img {
+body #movies #list .imgbox img {
   width: 100%;
 }
 
-body #movies .name {
+body #movies #list .name {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -68,5 +66,38 @@ body #movies .name {
       -ms-flex-pack: justify;
           justify-content: space-between;
   color: white;
+  margin-bottom: 0;
+}
+
+body #movies #list .movie .price {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+body #movies #list .movie .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body #movies #list .movie .icons i {
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+body #movies #list .movie:hover {
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+body #movies #list .active {
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */

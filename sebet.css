@@ -1,0 +1,36 @@
+#basket {
+  background-color: white;
+}
+
+#basket #tbody .imgbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#basket #tbody .imgbox .name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#basket #tbody .imgbox img {
+  width: 20%;
+  margin-right: 20px;
+}
+
+#basket #tbody .number .calculator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#basket #tbody .number input {
+  width: 30px;
+}
+/*# sourceMappingURL=sebet.css.map */

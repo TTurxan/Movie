@@ -16,25 +16,44 @@ body
                     a
                         color: white
             .search
-                display: inline-block  
-                position: relative 
+                display: inline-block
+                position: relative
                 input
                     border-radius: 5px
                 .fa-search
-                    position: absolute       
-                    right: 5px  
+                    position: absolute
+                    right: 5px
                     top: 7px
             .language
                 display: flex
                 float: right
-                ul
-                    display: flex
-                    padding: 0
+            .basket
+                font-size: 20px
+                color: white
     #movies
-        .imgbox
-            img
-                width: 100%
-        .name
-            display: flex
-            justify-content: space-between
-            color: white
+        #list
+            .imgbox
+                img
+                    width: 100%
+            .name
+                display: flex
+                justify-content: space-between
+                color: white
+                margin-bottom: 0
+            .movie
+                .price
+                    font-size: 20px
+                    color: white
+                    margin-bottom: 20px
+                .icons
+                    display: flex
+                    justify-content: space-evenly
+                    i
+                        font-size: 20px
+                        color: white
+                        cursor: pointer
+                &:hover
+                    filter: brightness(0.5)
+                    transition: all 0.5s ease
+            .active
+                display: block
