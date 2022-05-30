@@ -7,7 +7,7 @@ body #header {
 }
 
 body #header .imgbox img {
-  width: 100%;
+  width: 85%;
 }
 
 body #header .navbar ul {
@@ -52,27 +52,119 @@ body #header .navbar .language {
 body #header .navbar .basket {
   font-size: 20px;
   color: white;
+  position: relative;
+}
+
+body #header .navbar .basket .sayi {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+body #header .navbar .basket .movielist {
+  padding: 20px;
+  background-color: red;
+  position: absolute;
+  display: none;
+  z-index: 99;
+  width: 260px;
+}
+
+body #header .navbar .basket .active {
+  display: block !important;
+}
+
+body #header .navbar .basket .active .cancel {
+  position: absolute;
+  right: 8px;
+  top: 5px;
+}
+
+body #header .navbar .basket .active .cartTotal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid;
+}
+
+body #header .navbar .basket .active p {
+  margin: 0px 0px 0px 0px;
+}
+
+body #header .navbar .basket .clear button {
+  width: 100%;
+  border: none;
+  color: red;
+}
+
+body #header .navbar .basket .clear thead {
+  font-size: 12px;
+}
+
+body #header .navbar .basket .basketList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body #header .navbar .basket .basketList .imgbox {
+  width: 20%;
+}
+
+body #header .navbar .basket .basketList .imgbox .img {
+  width: 20% !important;
 }
 
 body #movies #list .imgbox img {
   width: 100%;
 }
 
-body #movies #list .name {
+body #movies #list .words {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+body #movies #list .words .name {
+  font-size: 15px;
   color: white;
   margin-bottom: 0;
 }
 
+body #movies #list .words .imd {
+  margin-bottom: 0;
+  font-size: 15px;
+  color: white;
+}
+
 body #movies #list .movie .price {
-  font-size: 20px;
+  font-size: 15px;
   color: white;
   margin-bottom: 20px;
+}
+
+body #movies #list .movie .money {
+  display: inline-block;
 }
 
 body #movies #list .movie .icons {
@@ -99,5 +191,63 @@ body #movies #list .movie:hover {
 
 body #movies #list .active {
   display: block;
+}
+
+body #tbody {
+  font-size: 12px;
+}
+
+body #tbody li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+
+body #tbody li .calculator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 20px;
+}
+
+body #tbody li .calculator input {
+  width: 18px;
+  height: 32px;
+}
+
+body #tbody li .imgbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #tbody li .imgbox .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body #tbody li .imgbox img {
+  width: 30%;
+  margin-right: 10px;
 }
 /*# sourceMappingURL=style.css.map */

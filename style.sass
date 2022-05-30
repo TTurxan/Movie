@@ -4,7 +4,7 @@ body
         margin-bottom: 20px
         .imgbox
             img
-                width: 100%
+                width: 85%
         .navbar
             ul
                 display: inline-block
@@ -30,21 +30,76 @@ body
             .basket
                 font-size: 20px
                 color: white
+                position: relative
+                .sayi
+                    width: 15px
+                    height: 15px
+                    background-color: red
+                    border-radius: 50%
+                    position: absolute
+                    top: 10px
+                    left: 20px
+                    display: flex
+                    align-items: center
+                    justify-content: center
+                    font-size: 13px
+                    font-weight: bold
+                .movielist
+                    padding: 20px
+                    background-color: red
+                    position: absolute
+                    display: none
+                    z-index: 99
+                    width: 260px
+                .active
+                    display: block!important
+                    .cancel
+                        position: absolute
+                        right: 8px
+                        top: 5px
+                    .cartTotal
+                        display: flex
+                        border: 1px solid
+                    p
+                        margin: 0px 0px 0px 0px
+                .clear
+                    button
+                        width: 100%
+                        border: none
+                        color: red
+                    thead
+                        font-size: 12px
+                .basketList
+                    display: flex
+                    .imgbox
+                        width: 20%
+                        .img
+                            width: 20%!important
     #movies
         #list
             .imgbox
                 img
                     width: 100%
-            .name
+            .words
                 display: flex
                 justify-content: space-between
-                color: white
-                margin-bottom: 0
+                margin-top: 15px
+                margin-bottom: 15px
+                .name
+                    font-size: 15px
+                    color: white
+                    margin-bottom: 0
+                .imd
+                    margin-bottom: 0
+                    font-size: 15px
+                    color: white
             .movie
                 .price
-                    font-size: 20px
+                    font-size: 15px
                     color: white
                     margin-bottom: 20px
+                .money
+                    display: inline-block
                 .icons
                     display: flex
                     justify-content: space-evenly
@@ -57,3 +112,29 @@ body
                     transition: all 0.5s ease
             .active
                 display: block
+
+    #tbody
+        font-size: 12px
+        li
+            display: flex
+            list-style-type: none
+            justify-content: center
+            align-items: center
+            list-style-type: none
+            margin-bottom: 15px
+            .calculator
+                display: flex
+                align-items: center
+                margin-right: 20px
+                input
+                    width: 18px
+                    height: 32px
+            .imgbox
+                display: flex
+                align-items: center
+                .name
+                    display: flex
+                    flex-direction: column
+                img
+                    width: 30%
+                    margin-right: 10px
